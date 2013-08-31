@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>markdownpad2</id>
+    <title>MarkdownPad2</title>
+    <version>2.3</version>
+    <authors>Evan Wondrasek</authors>
+    <owners>Ellen Gummesson</owners>
+    <summary>A Markdown editor for Windows</summary>
+    <description>MarkdownPad is a full-featured Markdown editor for Windows.</description>
+    <projectUrl>http://markdownpad.com/</projectUrl>
+    <tags>markdown text editor</tags>
+    <licenseUrl>http://markdownpad.com/eula.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>http://markdownpad.com/img/markdownpad2-dropshadow-128.png</iconUrl>
+    <releaseNotes>http://markdownpad.com/news/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\*" target="tools" />
+  </files>
+</package>
