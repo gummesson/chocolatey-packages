@@ -1,4 +1,12 @@
 # == Create a Chocolatey package ===============================================
+#
+#  Usage:
+#   .\pack.ps1 [FILE]
+#
+#  Example:
+#   .\pack.ps1 mactype
+#
+# ==============================================================================
 
 Param([Parameter(Position=0, Mandatory = $true)]
       [ValidateSet(
@@ -11,8 +19,8 @@ Function Set-PackageDirectory {
   Set-Location "$File\"
 }
 
-Function Create-Package {
-  cpack
+Function Invoke-PackageCreation {
+  chocolatey pack
 }
 
 Function Set-PreviousDirectory {
@@ -20,5 +28,5 @@ Function Set-PreviousDirectory {
 }
 
 Set-PackageDirectory
-Create-Package
+Invoke-PackageCreation
 Set-PreviousDirectory
