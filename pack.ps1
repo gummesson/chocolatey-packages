@@ -8,12 +8,15 @@
 #
 # ==============================================================================
 
-Param([Parameter(Position=0, Mandatory = $true)]
-      [ValidateSet(
-        "markdownpad2",
-        "mactype")]
-      [Alias("f")]
-      [String]$File)
+Param(
+  [Parameter(Position=0, Mandatory = $true)]
+  [ValidateSet(
+    "markdownpad2",
+    "mactype",
+    "markdownwin")]
+  [Alias("f")]
+  [String]$File
+)
 
 Function Set-PackageDirectory {
   Set-Location "$File\"

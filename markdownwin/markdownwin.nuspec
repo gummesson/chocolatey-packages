@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>markdownwin</id>
+    <title>MarkdownWin</title>
+    <version>1.0</version>
+    <authors>Joshua Poehls</authors>
+    <owners>Ellen Gummesson</owners>
+    <summary>A Markdown live-preview tool</summary>
+    <description>MarkdownWin is a Markdown live-preview tool for Windows.</description>
+    <projectUrl>https://github.com/jpoehls/MarkdownWin</projectUrl>
+    <tags>markdown html live preview</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.github.com/gummesson/chocolatey-packages/master/markdownwin/icon.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\*" target="tools" />
+    <file src="bin\*" target="bin" />
+  </files>
+</package>
