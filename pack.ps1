@@ -13,7 +13,8 @@ Param(
   [ValidateSet(
     "markdownpad2",
     "mactype",
-    "markdownwin")]
+    "markdownwin",
+    "wkhtmltopdf")]
   [Alias("f")]
   [String]$File
 )

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>wkhtmltopdf</id>
+    <title>wkhtmltopdf</title>
+    <version>0.9.9</version>
+    <authors>Jakob Truelsen</authors>
+    <owners>Ellen Gummesson</owners>
+    <summary>Convert HTML to PDF using Webkit</summary>
+    <description>A simple shell utility to convert HTML to PDF using the Webkit rendering engine and Qt.</description>
+    <projectUrl>http://code.google.com/p/wkhtmltopdf/</projectUrl>
+    <tags>html pdf webkit</tags>
+    <licenseUrl>http://www.gnu.org/licenses/lgpl.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\*" target="tools" />
+  </files>
+</package>
