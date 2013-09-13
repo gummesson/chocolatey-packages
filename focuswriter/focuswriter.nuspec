@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>focuswriter</id>
+    <title>FocusWriter</title>
+    <version>1.4.4</version>
+    <authors>Graeme Gott</authors>
+    <owners>Ellen Gummesson</owners>
+    <summary>FocusWriter is a simple, distraction-free writing environment</summary>
+    <description>FocusWriter is a simple, distraction-free writing environment. It utilizes a hide-away interface that you access by moving your mouse to the edges of the screen, allowing the program to have a familiar look and feel to it while still getting out of the way so that you can immerse yourself in your work.</description>
+    <projectUrl>http://gottcode.org/focuswriter/</projectUrl>
+    <tags>distraction-free text editor</tags>
+    <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\*" target="tools" />
+  </files>
+</package>
