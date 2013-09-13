@@ -7,10 +7,10 @@ $PackageParams = @{
   url = "http://mactype.googlecode.com/files/MacTypeInstaller_$Version.exe";
 } 
 
-try {
+Try {
   Install-ChocolateyPackage @PackageParams
   Write-ChocolateySuccess $Package
-} catch {
+} Catch {
   Write-ChocolateyFailure $Package "$($_.Exception.Message)"
-  throw
+  Throw
 }

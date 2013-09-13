@@ -6,10 +6,10 @@ $PackageParams = @{
   url = "http://markdownpad.com/download/markdownpad2-setup.exe";
 } 
 
-try {
+Try {
   Install-ChocolateyPackage @PackageParams
   Write-ChocolateySuccess $Package
-} catch {
+} Catch {
   Write-ChocolateyFailure $Package "$($_.Exception.Message)"
-  throw
+  Throw
 }
