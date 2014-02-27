@@ -1,11 +1,11 @@
 $Package = "MacType"
-$Version = "2012_1022_0"
+$Version = "2013_1231_0"
 $PackageParams = @{
-  packageName = $Package;  
+  packageName = $Package;
   fileType = "exe";
   silentArgs = "/quiet";
-  url = "http://mactype.googlecode.com/files/MacTypeInstaller_$Version.exe";
-} 
+  url = "http://www.mactype.tk/MacTypeInstaller_$Version.exe";
+}
 
 Try {
   Install-ChocolateyPackage @PackageParams
