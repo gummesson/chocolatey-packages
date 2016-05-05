@@ -1,15 +1,9 @@
-$Package = "MarkdownPad2"
+﻿$Package = "MarkdownPad2"
 $PackageParams = @{
   packageName = $Package;  
   fileType = "exe";
-  silentArgs = "/quiet";
+  silentArgs = "/exenoui /quiet";
   url = "http://markdownpad.com/download/markdownpad2-setup.exe";
 } 
 
-Try {
-  Install-ChocolateyPackage @PackageParams
-  Write-ChocolateySuccess $Package
-} Catch {
-  Write-ChocolateyFailure $Package "$($_.Exception.Message)"
-  Throw
-}
+Install-ChocolateyPackage @PackageParams
