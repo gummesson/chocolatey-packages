@@ -2,7 +2,7 @@
 $PackageParams = @{
   packageName = $Package;  
   fileType = "exe";
-  silentArgs = "/quiet /exenoui";
+  silentArgs = "/exenoui /quiet";
   url = "http://markdownpad.com/download/markdownpad2-setup.exe";
 } 
 
