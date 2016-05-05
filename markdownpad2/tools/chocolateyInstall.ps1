@@ -1,4 +1,4 @@
-$Package = "MarkdownPad2"
+﻿$Package = "MarkdownPad2"
 $PackageParams = @{
   packageName = $Package;  
   fileType = "exe";
