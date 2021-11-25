@@ -1,5 +1,5 @@
 $Package = "FocusWriter"
-$Version = "1.5.1"
+$Version = "1.7.6"
 
 $ToolsPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $PackagePath = "$((Get-Item $ToolsPath).parent.FullName)"
